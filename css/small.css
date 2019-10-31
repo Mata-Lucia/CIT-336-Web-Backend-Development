@@ -1,0 +1,214 @@
+body {
+    font-family: "Comic Sans MS", "Comic Sans", cursive;
+    width: 95%;
+    margin: 0 auto;
+    background-image: url(/mat18013-acme/images/site/background.jpg); 
+    background-size: cover;
+}
+
+/* HEADER */
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #ffffff;
+    padding: 5px;
+}
+
+header a {
+    color: #000000;
+    text-decoration: none;
+}
+
+#logo {
+    width: 50%;
+}
+
+#account {
+    width: 10%;
+}
+
+/* NAVIGATION */
+
+nav {
+    background-color: #a10606;
+}
+
+nav ul {
+    display: flex;
+    justify-content: flex-start;
+    margin: 0;
+    padding-left: 0;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+nav li {
+    list-style-type: none;
+    display: inline-block;
+}
+
+nav a {
+    text-decoration: none;
+    color: #ffffff;
+    padding: .25rem;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 0.75rem;
+}
+
+nav a:hover {
+    background-color: #ffffff;
+    color: #a10606;
+}
+
+/* MAIN */
+
+main {
+    background-color: #ffffff;
+    padding: 2px;
+}
+
+h1 {
+    font-size: 2rem;
+}
+
+.hero {
+    width: 95%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.heroimg {
+    margin: auto;
+    position: relative;
+}
+
+.heroimg ul {
+    position: absolute;
+    bottom: 17%;
+    left: 35%;
+    font-size: 0.75rem;
+    color: #550641;
+}
+
+.heroimg ul h2 {
+    margin-bottom: 0;
+}
+
+.heroimg li {
+    list-style-type: none;
+}
+
+.takeit {
+    width: 70%;
+}
+
+h1 {
+    margin: 0;
+}
+
+h2 {
+    font-size: 1rem;
+}
+
+.recipes {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.recipes img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.recipes a {
+    font-size: 0.75rem;
+}
+
+.linktitle {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+/* FORMS */
+
+div.form{
+    display: block;
+    text-align: center;
+}
+
+form{
+    display: inline-block;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: left;
+    border: 2px solid #a10606;
+    padding: 2%;
+    margin: 2%;
+    overflow: hidden;
+    width: 80%;
+}
+
+form h1 {
+    margin-bottom: 7%;
+}
+
+input {
+    border: 1px solid #000000;
+    padding: 2%;
+    margin: 2px;
+    float: right;
+    clear: both;
+}
+
+label {
+    font-size: 1.5rem;
+    margin: 10px;
+}
+
+.button {
+    border: 2px solid #000000;
+    padding: 2% 20% 2% 20%;
+    background-color: #a10606;
+    color: #ffffff;
+}
+
+.buttondiv {
+    text-align: center;
+    margin-top: 7%;
+}
+
+form a {
+    text-decoration: none;
+}
+
+.product {
+    border: none;
+}
+
+.product input {
+    float: left;
+    padding: 20px;
+    background-color: #a10606;
+    font-size: 2rem;
+}
+
+.productreg input {
+    width: 90%;
+}
+
+/* FOOTER */
+
+footer {
+    text-align: center;
+    background-color: #ffffff;
+    font-size: .80rem;
+    font-family: Arial, Helvetica, sans-serif;
+    border-top: 3px solid #000000;
+    padding-bottom: 1px;
+    padding-bottom: 1px;
+}

@@ -1,0 +1,32 @@
+@media only screen and (min-width: 700px) {
+
+    nav a {
+        font-size: 1.5rem;
+    }
+
+    h1 {
+        font-size: 3rem;
+    }
+
+    h2 {
+        font-size: 1.5rem;
+    }
+
+    .heroimg ul {
+        position: absolute;
+        bottom: 35%;
+        left: 50%;
+        font-size: 1.25rem;
+    }
+
+    .heroimg ul h2 {
+        font-size: 2rem;
+    }
+
+    .content {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-gap: 10%;
+    }
+    
+}
